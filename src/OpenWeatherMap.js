@@ -6,4 +6,6 @@ const ENDPOINTS = {
 };
 
 const ICON_BASE_URL = '//openweathermap.org/img/wn/';
+export const owmIconUrl = (icon) => `${ICON_BASE_URL}${icon}@2x.png`;
+
 export const OpenWeatherMapAPI = buildAPI(BASE_URL, ENDPOINTS);

@@ -1,0 +1,15 @@
+.weather_icon {
+  position: relative;
+}
+
+.weather_icon__inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
