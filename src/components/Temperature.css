@@ -1,0 +1,33 @@
+.temperature {
+  padding: 0 1em 1em;
+  line-height: 1;
+}
+.temperature__right_now {
+  padding: 0;
+  margin: 0;
+  font-size: 10vh;
+}
+.temperature__feels_like {
+  padding: 0;
+  margin: 0;
+  font-size: 3vh;
+  opacity: 0.95;
+  font-weight: 300;
+}
+.temperature__day_range {
+  display: flex;
+  padding: 0;
+  margin: 0.5em 0;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 300;
+}
+.temperature__day_range__hi,
+.temperature__day_range__lo {
+  display: block;
+  margin: 0 1em;
+}
+.temperature__day_range__hi {
+}
+.temperature__day_range__lo {
+}

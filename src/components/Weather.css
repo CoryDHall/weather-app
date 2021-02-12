@@ -1,0 +1,7 @@
+.weather {
+  margin: auto 0;
+}
+
+.weather .weather_icon {
+  min-height: 96px;
+}

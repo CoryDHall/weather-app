@@ -1,0 +1,9 @@
+.forecast {
+  margin-top: 1em;
+}
+
+.forecast__entries {
+  list-style: none;
+  margin: 0 1vh;
+  padding: 1em 0;
+}

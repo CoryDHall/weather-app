@@ -1,0 +1,38 @@
+.forecast_entry {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.forecast_entry__date {
+  margin: 0;
+  font-size: 5vh;
+  font-weight: 100;
+  flex: 0 0 30%;
+}
+.forecast_entry__time {
+  font-size: 1.8vh;
+  flex: 0 0 10%;
+}
+.forecast_entry .weather_icon {
+  width: 10vh;
+  height: 10vh;
+  margin: 0 auto;
+}
+
+.forecast_entry .temperature {
+  padding: 0 0.5em 0.5em;
+  margin-right: auto;
+  text-align: left;
+  flex: 0 0 30%;
+  font-size: 50%;
+}
+.forecast_entry .temperature__feels_like {
+  display: none;
+}
+.forecast_entry .temperature__day_range {
+  display: none;
+}
+.forecast_entry .temperature__right_now {
+  font-size: 4vh;
+}
